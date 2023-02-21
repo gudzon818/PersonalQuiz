@@ -9,16 +9,15 @@ import UIKit
 
 class ResultViewController: UIViewController {
     
-    
-    
     // 3. Определить наиболее часто встречающийся тип животного
     // 4. Отобразить результаты в соответствии с этим животным
     
-    var answerQuestion:[Answer] = []
+    var answerQuestion:[Answer]!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.hidesBackButton = true
+        calculateResult()
 
     }
     
@@ -28,5 +27,12 @@ class ResultViewController: UIViewController {
     
     deinit {
         print("\(type(of: self)) has been deallocated")
+    }
+    
+    func calculateResult() {
+        var quantityOfAnswers: [Animal: Int] = [:]
+        let answerType = answerQuestion.map { $0.self }
+        
+        
     }
 }
