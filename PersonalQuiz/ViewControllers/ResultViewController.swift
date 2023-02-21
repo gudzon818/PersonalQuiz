@@ -17,7 +17,7 @@ class ResultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.hidesBackButton = true
-        calculateResult()
+     //   calculateResult()
 
     }
     
@@ -29,10 +29,10 @@ class ResultViewController: UIViewController {
         print("\(type(of: self)) has been deallocated")
     }
     
-    func calculateResult() {
-        var quantityOfAnswers: [Animal: Int] = [:]
-        let answerType = answerQuestion.map { $0.self }
-        
-        
+//    func calculateResult() {
+//        var quantityOfAnswers: [Animal: Int] = [:]
+//        let answerType = answerQuestion.map { $0.self }
+//
+//
+//    }
     }
-}
