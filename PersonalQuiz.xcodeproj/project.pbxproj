@@ -15,6 +15,7 @@
 		A8BAD1E6299D51CC00529F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BAD1E5299D51CC00529F22 /* Assets.xcassets */; };
 		A8BAD1E9299D51CC00529F22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BAD1E7299D51CC00529F22 /* LaunchScreen.storyboard */; };
 		A8EF54CF29A297C600DEC3CF /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EF54CE29A297C600DEC3CF /* ResultViewController.swift */; };
+		CE94747B29A499BA00AE7E1E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE94747A29A499BA00AE7E1E /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A8BAD1E8299D51CC00529F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8BAD1EA299D51CC00529F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8EF54CE29A297C600DEC3CF /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		CE94747A29A499BA00AE7E1E /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				A8BAD1E2299D51CB00529F22 /* Main.storyboard */,
 				A8BAD1E7299D51CC00529F22 /* LaunchScreen.storyboard */,
+				CE94747A29A499BA00AE7E1E /* Storyboard.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8BAD1E9299D51CC00529F22 /* LaunchScreen.storyboard in Resources */,
+				CE94747B29A499BA00AE7E1E /* Storyboard.storyboard in Resources */,
 				A8BAD1E6299D51CC00529F22 /* Assets.xcassets in Resources */,
 				A8BAD1E4299D51CB00529F22 /* Main.storyboard in Resources */,
 			);
